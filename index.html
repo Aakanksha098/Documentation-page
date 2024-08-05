@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>C++ Documentation</header>
+        <ul>
+            <li>
+                <a class="nav-link" href="#Introduction_to_C++">Introduction to C++</a>
+
+            </li>
+             <li>
+                <a class="nav-link" href="#Key_Features_of_C++">Key Features of C++</a>
+
+            </li>
+             <li>
+                <a class="nav-link" href="#Essential_Components">Essential Components</a>
+
+            </li>
+             <li>
+                <a class="nav-link" href="#Development_Tools">Development Tools</a>
+
+            </li>
+             <li>
+                <a class="nav-link" href="#Useful_Resources">Useful Resources</a>
+
+            </li>
+             <li>
+                <a class="nav-link" href="#Reference">Reference</a>
+
+            </li>
+        </ul>
+        </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction_to_C++  ">
+      <header><ul><li>Introduction to C++</li></header>
+        <artical><p>C++ is a powerful, high-performance programming language widely used for system/software development and game programming.</p>
+<p>C++ is an extension of the C programming language, developed by Bjarne Stroustrup in the early 1980s. It supports object-oriented, generic, and functional programming features, making it versatile for various applications.</p>
+
+    </section>
+    <section class="main-section" id="Key_Features_of_C++">
+<header><li>Key Features of C++</li></header>
+       <artical>
+<p>1.Object-Oriented Programming (OOP):
+   -Classes and Objects: Encapsulation of data and functions.
+   -Inheritance:Creating new classes from existing ones.
+   -Polymorphism:Functions or methods with the same name behave differently based on the context.
+   -Abstraction:Hiding complex implementation details and exposing only necessary parts.<br></p>
+
+<p>2.Standard Template Library (STL):
+   -Containers:Pre-defined data structures like vectors, lists, and maps.
+   -Algorithms:Functions for sorting, searching, and manipulating data.
+   -Iterators:Objects that point to elements within containers.<br></p>
+
+<p>3.Memory Management:
+   -Dynamic Allocation:* Using new and delete for allocating and deallocating memory.
+   -Smart Pointers: unique_ptr, shared_ptr, and weak_ptr for automatic memory management.<br></p>
+
+<p>4.Performance:
+   -Low-Level Manipulation:Direct access to memory and hardware.
+   -Efficiency:Minimal runtime overhead and high-performance execution.</p>
+
+<p>5.Multi-Paradigm:
+   - Supports procedural, object-oriented, and generic programming.</p>
+  <code> #include <iostream>  // Library for input and output
+using namespace std;</code>
+
+   <code>
+       int main() {
+    cout << "Hello, World!" << endl;  // Output to console
+    return 0;  // Return 0 to indicate successful execution
+}
+
+      </code>
+</artical>
+    </section>
+    <section class="main-section" id="Essential_Components">
+       <header><li>Essential Components</li></header>
+       <artical>
+1.Variables and Data Types:
+   <code>cpp
+   int age = 25;
+   float height = 5.9;
+   char grade = 'A';
+   </code>
+
+2.Control Structures:
+   -If-Else:
+     <code>cpp
+     if (age > 18) {
+         cout << "Adult" << endl;
+     } else {
+         cout << "Minor" << endl;
+     }
+    </code>
+   -Loops:
+     <code>cpp
+     for (int i = 0; i < 10; i++) {
+         cout << i << endl;
+     }
+     </code>>
+3.Functions:
+   <code>cpp
+   int add(int a, int b) {
+       return a + b;
+   }
+   </code>>
+4.Classes and Objects:
+<code>
+   cpp
+   class Car {
+   public:
+       string brand;
+       int year;
+
+       void display() {
+           cout << brand << " - " << year << endl;
+       }
+   };
+
+   int main() {
+       Car car1;
+       car1.brand = "Toyota";
+       car1.year = 2020;
+       car1.display();
+       return 0;
+   }
+</code>
+
+    </section>
+    <section class="main-section" id="Development_Tools">
+        <header><li>Development Tools</li></header>
+           <artical> 
+<p>-IDEs:Visual Studio, CLion, Code::Blocks, Eclipse
+-Compilers:GCC, Clang, MSVC</p>
+
+</artical>
+    </section>
+    <section class="main-section" id="Useful_Resources">
+        <header><li>Useful Resources</li></header>
+           <artical> 
+<p>-Official Documentation:[C++ Reference](https://en.cppreference.com/)<br></p>
+<p>-Tutorials:[LearnCpp.com](https://www.learncpp.com/), [cplusplus.com](http://www.cplusplus.com/doc/tutorial/)<br></p>
+<p>-Books:"The C++ Programming Language" by Bjarne Stroustrup, "Effective C++" by Scott Meyers<br></p>
+</artical>
+<section class="main-section" id="Reference">
+<header><li>Reference</li></header>
+<artical><p>All the documentation in this page is taken from 
+    <a href="https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_Wasm" target="_blank">MDN</a></p>
+</ul>
+</artical>
+</section>
+
+    </section>
+    </main>
+  </body>
